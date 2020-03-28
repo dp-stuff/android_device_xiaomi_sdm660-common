@@ -24,3 +24,6 @@ type kcal_dev, sysfs_type, fs_type;
 type thermal_data_file, file_type, data_file_type;
 
 allow ueventd ir_dev_file:chr_file { create setattr };
+
+# XiaomiPart
+type sysfs_fpsinfo, sysfs_type, fs_type;
